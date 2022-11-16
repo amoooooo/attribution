@@ -1,4 +1,4 @@
-package coffee.amo.attritbution;
+package coffee.amo.attribution;
 
 import com.google.gson.Gson;
 import com.google.gson.JsonArray;
@@ -46,7 +46,7 @@ public class AttributeUnificationJSONListener extends SimpleJsonResourceReloadLi
             file.entrySet().forEach(entry -> {
                 ResourceLocation attribute = new ResourceLocation(entry.getKey());
                 if(ATTRIBUTE_UNIFICATION_MAP.containsKey(attribute)) {
-                    Attritbution.LOGGER.warn("Duplicate attribute unification entry for " + attribute.getPath());
+                    Attribution.LOGGER.warn("Duplicate attribute unification entry for " + attribute.getPath());
                 }
                 JsonArray array = entry.getValue().getAsJsonArray();
                 List<ResourceLocation> list = new ArrayList<>();

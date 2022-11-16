@@ -6,4 +6,4 @@ pluginManagement {
     }
 }
 
-rootProject.name = 'attritbution'
+rootProject.name = 'attribution'

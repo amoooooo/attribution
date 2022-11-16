@@ -1,6 +1,6 @@
-package coffee.amo.attritbution.mixin;
+package coffee.amo.attribution.mixin;
 
-import coffee.amo.attritbution.AttributeUnificationJSONListener;
+import coffee.amo.attribution.AttributeUnificationJSONListener;
 import net.minecraft.core.Registry;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.nbt.ListTag;

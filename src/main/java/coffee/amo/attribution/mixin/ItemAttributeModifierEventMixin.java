@@ -1,6 +1,6 @@
-package coffee.amo.attritbution.mixin;
+package coffee.amo.attribution.mixin;
 
-import coffee.amo.attritbution.AttributeUnificationJSONListener;
+import coffee.amo.attribution.AttributeUnificationJSONListener;
 import com.google.common.collect.Multimap;
 import net.minecraft.core.Registry;
 import net.minecraft.resources.ResourceLocation;

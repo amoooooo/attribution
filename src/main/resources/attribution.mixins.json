@@ -1,9 +1,9 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "coffee.amo.attritbution.mixin",
+  "package": "coffee.amo.attribution.mixin",
   "compatibilityLevel": "JAVA_8",
-  "refmap": "attritbution.refmap.json",
+  "refmap": "attribution.refmap.json",
   "mixins": [
     "ItemAttributeModifierEventMixin",
     "ItemStackMixin"
